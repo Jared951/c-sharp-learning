@@ -1,0 +1,14 @@
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\bin\Debug\net7.0\basics-of-c#.exe
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\bin\Debug\net7.0\basics-of-c#.deps.json
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\bin\Debug\net7.0\basics-of-c#.runtimeconfig.json
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\bin\Debug\net7.0\basics-of-c#.dll
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\bin\Debug\net7.0\basics-of-c#.pdb
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.AssemblyInfoInputs.cache
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.AssemblyInfo.cs
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.csproj.CoreCompileInputs.cache
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.dll
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\refint\basics-of-c#.dll
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.pdb
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\basics-of-c#.genruntimeconfig.cache
+C:\Users\jared\Foundations37\learning-c#\basics-of-c#\obj\Debug\net7.0\ref\basics-of-c#.dll
