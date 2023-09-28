@@ -3,6 +3,15 @@ dotnet new console: type this in terminal for new project
 dotnet run: to run application
 */
 
+/*
+Start by typing the class name. In this case, the class name is Console.
+Add the member access operator, the . symbol.
+Add the method's name. In this case, the method's name is WriteLine.
+Add the method invocation operator, which is a set of parentheses ().
+Finally, specify the arguments that are passed to the method, if there are any, between the parentheses of the method invocation operator. 
+In this case, you specify the text that you want the Console.WriteLine() method to write to the console (for example, "Hello World!").
+*/
+
 Console.WriteLine("Hello, World!"); // to write on to a new line
 Console.Write("Hello WORLD"); // to write on the current line
 
@@ -259,12 +268,16 @@ value = value + 5; // value is now 5.
 value += 5;        // value is now 10.
 
 // ++
-int value = 0;     // value is now 0.
+int valueExample = 0;     // value is now 0.
 value = value + 1; // value is now 1.
 value++;           // value is now 2.
+Console.WriteLine(valueExample);
 
-int value = 1;
-value++;
+
+int valueExampleTwo = 1;
+valueExampleTwo++;
+Console.WriteLine(valueExampleTwo);
+
 Console.WriteLine("First: " + value); // First: 2
 Console.WriteLine($"Second: {value++}"); // Second: 2
 Console.WriteLine("Third: " + value); // Third: 3
@@ -283,6 +296,45 @@ Increment and decrement operators perform differently depending on whether the o
 
 
 
+Console.WriteLine("Pt.2 Starts Here\n");
 
 
+/*
+To call methods of a class in the .NET Class Library, you use the format ClassName.MethodName(), where the . symbol is the member access operator to access a method defined on the class, and the () symbols are the method invocation operators.
+When calling a stateless method, you don't need to create a new instance of its class first.
+When calling a stateful method, you need to create an instance of the class, and access the method on the object.
+Use the new operator to create a new instance of a class.
+An instance of a class is called an object.
 
+1 - Calling Methods: You can use methods provided by classes in the .NET library to perform tasks. 
+
+2- Stateless vs. Stateful Methods:
+
+Stateless methods (like Console.WriteLine()) work without needing any special information and are usually static.
+Stateful methods (like Random.Next()) need specific data or modify the program's state and are typically used with object instances.
+
+3 - Creating Object Instances: To use stateful methods, you create an object (an instance) of a class using the new operator. This object allows you to access and use the methods provided by that class.
+
+4 - Determining Method Type: You can tell if a method is stateful or stateless by checking the documentation or trying to use it directly. If it's stateful, you'll need to create an instance of the class.
+
+Recap: When using methods from the .NET Class Library:
+
+Use ClassName.MethodName() to call methods.
+Stateless methods can be used directly.
+Stateful methods require creating an object (instance) of the class using the new operator.
+*/
+
+Random dice = new Random();
+int roll1 = dice.Next();
+int roll2 = dice.Next(101);
+int roll3 = dice.Next(50, 101);
+
+Console.WriteLine($"First roll: {roll1}");
+Console.WriteLine($"Second roll: {roll2}");
+Console.WriteLine($"Third roll: {roll3}");
+
+int firstValue = 500;
+int secondValue = 600;
+int largerValue= Math.Max(firstValue, secondValue); 
+
+Console.WriteLine(largerValue);
